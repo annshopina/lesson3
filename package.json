@@ -1,0 +1,30 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "npm run lint && <build script>",
+    "arifmetics" : "node src/arifmetics.js",
+    "logical" : "node src/logical.js",
+    "decision" : "node src/decision-tree.js",
+    "switch" : "node src/switch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annshopina/lesson3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annshopina/lesson3/issues"
+  },
+  "homepage": "https://github.com/annshopina/lesson3#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "globals": "^15.14.0"
+  }
+}
